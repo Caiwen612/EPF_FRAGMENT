@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import my.edu.tarc.epf2.R
+import my.edu.tarc.epf2.databinding.FragmentDividendBinding
 import my.edu.tarc.epf2.databinding.FragmentInvestmentBinding
 
 
@@ -15,7 +16,7 @@ import my.edu.tarc.epf2.databinding.FragmentInvestmentBinding
  * create an instance of this fragment.
  */
 class DividendFragment : Fragment() {
-    private var _binding: FragmentInvestmentBinding? = null
+    private var _binding: FragmentDividendBinding? = null
     private val binding get() = _binding!!
 
 
