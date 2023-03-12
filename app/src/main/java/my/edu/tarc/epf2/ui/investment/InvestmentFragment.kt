@@ -37,6 +37,9 @@ class InvestmentFragment : Fragment() {
         return binding.root
     }
 
+    //TODO : Implementation of onViewCreated and the whole module
+
+
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
