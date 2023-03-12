@@ -30,7 +30,7 @@ class DividendFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        _binding = FragmentInvestmentBinding.inflate(inflater, container, false)
+        _binding = FragmentDividendBinding.inflate(inflater, container, false)
         return binding.root
     }
 
