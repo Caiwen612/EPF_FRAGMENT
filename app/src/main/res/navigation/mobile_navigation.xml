@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
+    android:label="@string/menu_investment"
     app:startDestination="@+id/nav_home">
 
     <fragment
@@ -22,4 +23,14 @@
         android:name="my.edu.tarc.epf2.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_investment"
+        android:name="my.edu.tarc.epf2.ui.investment.InvestmentFragment"
+        android:label="@string/menu_investment"
+        tools:layout="@layout/fragment_investment" />
+    <fragment
+        android:id="@+id/nav_dividend"
+        android:name="my.edu.tarc.epf2.ui.dividend.DividendFragment"
+        android:label="@string/menu_dividend"
+        tools:layout="@layout/fragment_dividend" />
 </navigation>
